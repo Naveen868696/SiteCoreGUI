@@ -10,27 +10,27 @@
     <class name="Acacemy.HappyTests"/>
     </classes>
    </test>
-   <test name = "UnHappyScen">
+   <test name = "UnHappyScenario">
     <classes>
     <class name="Acacemy.UnHappyTests"/>
     </classes>
    </test>
-   <test name = "UnHappyScen2">
+   <test name = "UnHappyScenario2">
     <classes>
     <class name="Acacemy.UnHappyTests2"/>
     </classes>
    </test>
-   <test name = "UnHappyScen3">
+   <test name = "UnHappyScenario3">
     <classes>
     <class name="Acacemy.UnHappyTests3"/>
     </classes>
    </test>
-    <test name = "UnHappyScen4">
+    <test name = "UnHappyScenario4">
     <classes>
     <class name="Acacemy.UnHappyTests4"/>
     </classes>
    </test>
-    <test name = "UnHappyScen5">
+    <test name = "UnHappyScenario5">
     <classes>
     <class name="Acacemy.UnHappyTests5"/>
     </classes>

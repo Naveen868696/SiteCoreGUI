@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class DashBoardPage {
 	
+	// all the webelements on DashBoard page
 	public WebDriver driver;
 	By intellisenseHomePageIcon = By.xpath("//img[@class='pull-left']");
 	By TestDashBoardText 		= By.xpath("//h1[contains(text(),'Test dashboard')]");
