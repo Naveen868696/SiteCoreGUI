@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 42.062 s <<< FAILURE! - in TestSuite
+Acacemy.Homepage.urlHomePage  Time elapsed: 3.673 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="product-tour" ng-href="?product_tour_id=34973#!/id/dashboards/665" href="?product_tour_id=34973#!/id/dashboards/665">...</a> is not clickable at point (195, 198). Other element would receive the click: <li ng-click="log(subitem.link)" data-ng-if="subitem.shouldRender(authentication.user);" ui-route="/id/dashboards/460" ng-class="{active: $uiRoute, hasPlus: hasIcon(subitem)}" data-ng-bind="subitem.title | i18n">...</li>
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-M4N4JHAP', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\navee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4962499ed15ed3ad335af045da29135f
+	at Acacemy.Homepage.urlHomePage(Homepage.java:73)
+
+Acacemy.Homepage.urlhomePageIntellisense  Time elapsed: 1.234 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <li class="btn btn-primary" title="Set as Homepage" ng-click="dashboardExists() &amp;&amp; setHomepage()" ng-class="isActive(dashboardExists) " style="">...</li> is not clickable at point (1264, 162). Other element would receive the click: <li ng-click="log(subitem.link)" data-ng-if="subitem.shouldRender(authentication.user);" ui-route="/id/dashboards/634" ng-class="{active: $uiRoute, hasPlus: hasIcon(subitem)}" data-ng-bind="subitem.title | i18n">...</li>
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-M4N4JHAP', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\navee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4962499ed15ed3ad335af045da29135f
+	at Acacemy.Homepage.urlhomePageIntellisense(Homepage.java:52)
+
