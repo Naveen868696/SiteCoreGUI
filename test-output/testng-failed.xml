@@ -1,51 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <listeners>
-    <listener class-name="Acacemy.Listeners"/>
-  </listeners>
-  <test thread-count="5" name="UnHappyScen2(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Acacemy.UnHappyTests2">
+      <class name="Acacemy.HappyTests">
         <methods>
+          <include name="homePageDashBoard"/>
           <include name="Teardown"/>
-          <include name="HomePageURL"/>
           <include name="initialization"/>
         </methods>
-      </class> <!-- Acacemy.UnHappyTests2 -->
+      </class> <!-- Acacemy.HappyTests -->
     </classes>
-  </test> <!-- UnHappyScen2(failed) -->
-  <test thread-count="5" name="UnHappyScen3(failed)" parallel="tests">
-    <classes>
-      <class name="Acacemy.UnHappyTests3">
-        <methods>
-          <include name="initialization"/>
-          <include name="Links"/>
-          <include name="Teardown"/>
-        </methods>
-      </class> <!-- Acacemy.UnHappyTests3 -->
-    </classes>
-  </test> <!-- UnHappyScen3(failed) -->
-  <test thread-count="5" name="UnHappyScen4(failed)" parallel="tests">
-    <classes>
-      <class name="Acacemy.UnHappyTests4">
-        <methods>
-          <include name="Links"/>
-          <include name="initialization"/>
-          <include name="Teardown"/>
-        </methods>
-      </class> <!-- Acacemy.UnHappyTests4 -->
-    </classes>
-  </test> <!-- UnHappyScen4(failed) -->
-  <test thread-count="5" name="UnHappyScen5(failed)" parallel="tests">
-    <classes>
-      <class name="Acacemy.UnHappyTests5">
-        <methods>
-          <include name="Links"/>
-          <include name="initialization"/>
-          <include name="Teardown"/>
-        </methods>
-      </class> <!-- Acacemy.UnHappyTests5 -->
-    </classes>
-  </test> <!-- UnHappyScen5(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
